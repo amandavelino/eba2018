@@ -1,0 +1,105 @@
+/* Geral */
+
+#contato
+{
+	padding: 7em 0 3em;
+	margin: -5px 0 -5em 0;
+}
+
+#contato .poligono
+{
+	background: #e9a200 url("../imgs/bg-contato.png") no-repeat top center;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -20;
+
+	-ms-transform: skewY(-4deg); /* IE 9 */
+	-webkit-transform: skewY(-4deg); /* Safari */
+	transform: skewY(-4deg); /* Standard syntax */	
+}
+
+#contato header
+{
+	text-align: center;
+	padding-bottom: 0;
+}
+
+#contato header h2
+{
+	color: #fff;
+}
+
+#contato header h3
+{
+	color: #fff;
+	font-size: 2.6em;
+}
+
+/* Inscricao */
+
+	#contatoForm
+	{
+		text-align: center;
+		padding: 4em 0;
+	}
+
+	/* Formulario */
+
+		#contatoForm .input
+		{
+			background: #fff;
+			color: #686866;
+		}
+
+		#contatoForm .input:hover,
+		#contatoForm .input:focus
+		{
+			background: #eee;
+		}
+
+		#contatoForm ::-webkit-input-placeholder
+		{ /* Chrome/Opera/Safari */
+		  color: #686866;
+		  text-transform: uppercase;
+		  font-weight: normal;
+		}
+		#contatoForm ::-moz-placeholder
+		{ /* Firefox 19+ */
+		  color: #686866;
+		  text-transform: uppercase;
+		  font-weight: normal;
+		}
+		#contatoForm :-ms-input-placeholder
+		{ /* IE 10+ */
+		  color: #686866;
+		  text-transform: uppercase;
+		  font-weight: normal;
+		}
+		#contatoForm :-moz-placeholder
+		{ /* Firefox 18- */
+		  color: #686866;
+		  text-transform: uppercase;
+		  font-weight: normal;
+		}	
+
+		#contatoForm .submit
+		{
+			background: #f9d324;
+			color: #fff;
+			padding: 1em 5em;
+			margin: 0;			
+		}	
+
+		#contatoForm .submit:hover,
+		#contatoForm .submit:focus
+		{
+			background: #fff;
+			color: #5cad9e;
+		}

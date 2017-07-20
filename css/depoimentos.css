@@ -1,0 +1,22 @@
+#depoimentos{padding:7em 0 15em;margin-top:-9.5em}
+#depoimentos .poligono{background:#a6c4be;width:100%;height:100%;overflow:hidden;position:absolute;top:0;left:0;bottom:0;right:0;z-index:-20;-ms-transform:skewY(4deg);-webkit-transform:skewY(4deg);transform:skewY(4deg)}
+#depoimentos .poligono #app-mobile{position:absolute;right:0;bottom:-1em;z-index:10}
+#depoimentos .linhas{background:url(../imgs/linhas-rg-gr.png) no-repeat 100% 72px;position:absolute;width:100%;height:100%;top:0;right:0;z-index:-10}
+#depoimentos header h2{color:#fff}
+#depoimentos blockquote{background:#4b8f82;padding:4em 4em 2em;margin:0 auto;font-size:inherit;border-left:5px solid #eee;max-width:900px}
+#depoimentos blockquote p{color:#fff;font-family:'unisanslightregular',Arial,Helvetica,sans-serif;font-size:1.8em}
+#depoimentos blockquote cite{font-style:normal}
+#depoimentos blockquote footer{color:#fff;text-align:right;font-size:1.6em;text-decoration:none;padding:0}
+.owl-theme .owl-dots .owl-dot span{border-radius:0;background:#d4e6e2}
+.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:#4b8f82;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
+#app{text-align:center}
+#app header h5{color:#31635f;text-transform:uppercase;font-size:3.6em}
+.botoes-stores a{display:inline-block}
+#insta{position:relative;overflow:hidden;margin:10em 0}
+#hashtag{position:absolute;left:0;bottom:0;z-index:50;margin:0 5em}
+#hashtag h4{color:#fff;text-transform:uppercase;font-size:7em;padding:0 1em;margin:0;padding:0;text-shadow:1px 1px 15px rgba(0,0,0,1)}
+#insta .owl-theme .owl-nav [class*=owl-]{background:transparent;border-radius:0;color:#fff;font-size:5em}
+#insta .owl-theme .owl-nav{position:absolute;top:50%;width:100%}
+#insta .owl-theme .owl-nav .owl-prev,#insta .owl-theme .owl-nav .owl-next{margin-top:-25px;position:absolute;z-index:10}
+#insta .owl-theme .owl-nav .owl-prev{left:.5em}
+#insta .owl-theme .owl-nav .owl-next{right:.5em}

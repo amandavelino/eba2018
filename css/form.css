@@ -1,0 +1,12 @@
+form{padding:4em 0}
+.input{background:#4b8f82;border:0 none;color:#fff;font-family:'unisansregularregular',Arial,Helvetica,sans-serif;font-size:1.8em;font-weight:400;line-height:1em;padding:1em;width:100%;outline:none;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
+.input:hover,.input:focus{background:#5cad9e}
+label{display:block}
+.textarea{height:172px;max-height:172px;max-width:100%}
+.submit{background:#fff;border:0 none;color:#4b8f82;display:inline-block;font-family:'unisanssemiboldbold',Arial,Helvetica,sans-serif;font-size:2em;line-height:1em;padding:1em 5em;outline:none;text-transform:uppercase;float:right;-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;-ms-transition:all .5s ease-in-out;-o-transition:all .5s ease-in-out;transition:all .5s ease-in-out}
+.submit:hover,.submit:focus{background:#5cad9e;color:#fff}
+.btn-geral{background:#fff;border:0 none;color:#2f8775;display:inline-block;font-family:'unisansregularregular',Arial,Helvetica,sans-serif;font-size:2.5em;line-height:2.5em;padding:0 .5em;outline:none;text-transform:uppercase;-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;-ms-transition:all .5s ease-in-out;-o-transition:all .5s ease-in-out;transition:all .5s ease-in-out}
+.btn-delegacao{margin:4em 0 0}
+.btn-geral *{float:left}
+.btn-geral span{font-family:'unisansregularregular',Arial,Helvetica,sans-serif;font-size:2.5em;line-height:1em;margin-right:.2em}
+.btn-geral:hover,.btn-geral:focus{background:#5cad9e;color:#fff}

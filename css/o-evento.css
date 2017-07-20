@@ -1,0 +1,17 @@
+#o-evento{margin-top:187px}
+#video-eventos{width:100%;height:580px;position:relative}
+#img-evento{position:relative}
+#img-evento header{position:absolute;top:0;left:0;z-index:10;width:100%}
+#img-evento .det-img-evento,#o-evento header h2{float:left}
+#o-evento header h2{color:#fff;font-family:'unisanssemiboldbold',Arial,Helvetica,sans-serif;font-size:6em;line-height:1.2em;text-transform:uppercase;padding:1.8em 0;margin:0}
+#img-evento img{max-width:100%}
+#eventos .evento{float:left;position:relative;width:100%;text-align:justify}
+#eventos header{padding:12em 0 4em;overflow:hidden}
+#eventos header h2{font-family:'unisansregularregular',Arial,Helvetica,sans-serif;font-size:4em;line-height:1em;padding:0}
+#eventos .evento p{color:#fff;font-size:2em;font-weight:400}
+#eventos .evento img{margin:-5em 0 -10em}
+#eventos .evento img.pull-left{margin-right:-6em}
+#eventos .evento img.pull-right{margin-left:-6em}
+#evento-old{text-align:center}
+#evento-old header h2{float:none}
+#video-old{width:548px;margin:0 auto;height:308px}

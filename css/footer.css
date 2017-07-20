@@ -1,0 +1,5 @@
+footer#ft-principal{background:#fff;position:relative;width:100%;padding:4em 0 3em;clear:both;text-align:center}
+footer#ft-principal ul{list-style:none;width:100%;overflow:hidden;padding:0;margin:0}
+footer#ft-principal ul li{float:left;margin-right:-5em}
+footer#ft-principal ul li img{width:60%}
+.parceiro h4{color:#111;font-size:3em;line-height:1em;font-family:'unisanssemiboldbold',Arial,Helvetica,sans-serif;text-align:left}

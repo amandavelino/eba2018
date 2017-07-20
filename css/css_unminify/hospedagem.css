@@ -1,0 +1,196 @@
+/* Geral */
+
+#hospedagem
+{
+	padding: 7em 0 3em;
+	margin: -5px 0 0 0;
+}
+
+#hospedagem .poligono
+{
+	background: #d4e6e2;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -20;
+
+	-ms-transform: skewY(-4deg); /* IE 9 */
+	-webkit-transform: skewY(-4deg); /* Safari */
+	transform: skewY(-4deg); /* Standard syntax */	
+}
+
+#hospedagem .linhas
+{
+	background: url("../imgs/linhas-wh-yel.png") no-repeat 50% -9%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	z-index: -10;
+}
+
+#hospedagem header h2
+{
+	/*color: #fff;*/
+}
+
+/* Hospedagem */
+
+	.hospedagem-sing
+	{
+		text-align: center;
+	}
+
+	.hospedagem-sing img
+	{
+		margin: 0 auto;
+		max-width: 100%;
+		display: inline-block;
+	}
+
+	.hospedagem-sing header
+	{
+		padding: 2em 0;
+		text-align: center;
+	}
+
+	.hospedagem-sing header h3
+	{
+		color: #4b8f82;
+		font-family: 'unisanssemiboldbold', Arial, Helvetica, sans-serif;
+		font-size: 3.6em;
+		line-height: 1.2em;
+		text-transform: uppercase;
+		margin: 0;
+		padding: 0;
+	}
+
+	.hospedagem-sing p
+	{
+		color: #4b8f82;
+		font-size: 2em;
+		line-height: 1.2em;
+		padding: 0 2.7em;
+		text-align: justify;
+	}
+
+/* Inscricao */
+
+	#inscricao
+	{
+		text-align: center;
+		padding: 4em 0;
+	}
+
+	#inscricao .sessao header
+	{
+	    padding: 4em 0 2em;
+	}	
+
+	#inscricao h2
+	{
+		color: #686866;
+		font-family: 'unisanssemiboldbold', Arial, Helvetica, sans-serif;
+		font-size: 3.2em;
+		line-height: 1.4em;
+		margin: 0;
+	}
+
+	#inscricao h3
+	{
+		color: #686866;
+		font-size: 2em;
+		line-height: 1.4em;
+		text-transform: uppercase;
+		margin: 0;
+	}
+
+	#inscricao p
+	{
+		color: #686866;
+		font-size: 1.8em;
+		line-height: 1.2em;
+	}
+
+	#inscricao h3 strong
+	{
+		color: #4b8f82;
+		font-family: 'unisanssemiboldbold', Arial, Helvetica, sans-serif;
+	}
+
+	a.btn-pdf,
+	a.btn-pdf:visited
+	{
+		background: #4b8f82 url("../imgs/pdf-icon.png") no-repeat 10px center;
+		color: #fff;
+		display: inline-block;
+		text-transform: uppercase;
+		font-family: 'unisanssemiboldbold', Arial, Helvetica, sans-serif;
+		font-size: 1.4em;
+		line-height: 1em;
+		padding: 2em 1em 2em 5em;
+		text-align: right;
+		margin: 0 0 2em;
+
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;		
+
+		-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+		-o-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out;		
+	}
+
+	a.btn-pdf:hover,
+	a.btn-pdf:focus
+	{
+		background-color: #5cad9e;
+	}
+
+	/* Formulario */
+
+		#inscricao .input
+		{
+			background: #4b8f82;
+			color: #fff;			
+		}
+
+		#inscricao .input:hover,
+		#inscricao .input:focus
+		{
+			background: #5cad9e;
+		}
+
+		#inscricao ::-webkit-input-placeholder
+		{ /* Chrome/Opera/Safari */
+		  color: #fff;
+		  text-transform: uppercase;
+		  font-weight: normal;
+		}
+		#inscricao ::-moz-placeholder
+		{ /* Firefox 19+ */
+		  color: #fff;
+		  text-transform: uppercase;
+		  font-weight: normal;
+		}
+		#inscricao :-ms-input-placeholder
+		{ /* IE 10+ */
+		  color: #fff;
+		  text-transform: uppercase;
+		  font-weight: normal;
+		}
+		#inscricao :-moz-placeholder
+		{ /* Firefox 18- */
+		  color: #fff;
+		  text-transform: uppercase;
+		  font-weight: normal;
+		}	

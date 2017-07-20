@@ -1,0 +1,378 @@
+/* Geral */
+
+	#delegacao
+	{
+		padding: 7em 0 8em;
+		margin: -5px 0 0 0;
+	}
+
+	#delegacao .poligono
+	{
+		background: #4b8f82 url("../imgs/bg-delegacao.jpg") repeat-y center top;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		z-index: -20;
+
+		-ms-transform: skewY(-4deg); /* IE 9 */
+		-webkit-transform: skewY(-4deg); /* Safari */
+		transform: skewY(-4deg); /* Standard syntax */	
+	}
+
+	#delegacao .linhas
+	{
+		background: url("../imgs/linha-ye-wt.png") no-repeat 100% 14em;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		right: 0;
+		z-index: -10;
+	}
+
+	#delegacao header h2
+	{
+		color: #fff;
+	}
+
+/* Inscricao */
+
+	#inscreva-se
+	{
+		text-align: center;
+		padding: 0 0 4em;
+	}
+
+	#inscreva-se .sessao header
+	{
+	    padding: 4em 0 2em;
+	}	
+
+	#inscreva-se h2
+	{
+		color: #fff;
+		font-family: 'unisansbold', Arial, Helvetica, sans-serif;
+		font-size: 5em;
+		line-height: 1.4em;
+		margin: 0;
+	}
+
+	#inscreva-se h3
+	{
+		color: #fff;
+		font-size: 2em;
+		line-height: 1.4em;
+		text-transform: uppercase;
+		margin: 0;
+	}
+
+	#inscreva-se p
+	{
+		color: #fff;
+		font-size: 1.8em;
+		line-height: 1.2em;
+	}
+
+	#inscreva-se h3 strong,
+	#inscreva-se a,
+	#inscreva-se a:visited
+	{
+		color: #dfc137;
+		font-family: 'unisanssemiboldbold', Arial, Helvetica, sans-serif;
+	}
+
+	#inscreva-se a:focus,
+	#inscreva-se a:hover
+	{
+		color: #ffbc30;
+	}
+
+	#inscreva-se a.btn-pdf,
+	#inscreva-se a.btn-pdf:visited
+	{
+		background: #f2b22c url("../imgs/pdf-icon.png") no-repeat 10px center;
+		color: #fff;
+		display: inline-block;
+		text-transform: uppercase;
+		font-family: 'unisanssemiboldbold', Arial, Helvetica, sans-serif;
+		font-size: 1.4em;
+		line-height: 1em;
+		padding: 2em 1em 2em 5em;
+		text-align: right;
+		margin: 0 0 2em;
+
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;		
+
+		-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+		-o-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out;		
+	}
+
+	#inscreva-se a.btn-pdf:hover,
+	#inscreva-se a.btn-pdf:focus
+	{
+		background-color: #ffbc30;
+	}
+
+/* Delegacao */
+
+	#mapa-delegacoes
+	{
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+		padding: 5em 0;
+	}
+
+	.info-delegacao h3
+	{
+		color: #f9d324;
+		font-family: 'unisanssemiboldbold';
+		font-size: 4em;
+		line-height: 1.2em;
+		text-transform: uppercase;
+		margin: 0;
+	}
+
+	.info-delegacao h4
+	{
+		color: #fff;
+		font-family: 'unisansregularregular';
+		font-size: 4.5em;
+		line-height: 1.1em;
+		margin: 0;
+	}	
+
+/* Delegacao Item */
+
+	.delegacao-itens li.delegacao-header
+	{
+		border-bottom: 1px dashed #f9d324;
+		margin-bottom: 2em;
+	}
+
+	.info-delegacao
+	{
+		position: relative;	
+		overflow: hidden;
+		width: 100%;
+		min-height: 300px;
+	}
+
+	.bg_loading
+	{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -10px;
+		margin-left: -10px;
+		z-index: 10;
+	}
+
+	.info-delegacao header
+	{
+		padding: 10px 0;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.info-delegacao header *
+	{
+		float: left;
+	}
+
+	.info-delegacao header img
+	{
+		margin-right: 5px;
+	}
+
+	.info-delegacao header h3
+	{
+		color: #fff;
+	}
+
+	.info-delegacao h5
+	{
+		color: #fff;
+		font-family: 'unisanssemiboldbold';
+		font-size: 2em;
+		line-height: 1.2em;
+		text-transform: uppercase;
+		margin: 0;
+	}
+
+	.delegacao-itens
+	{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.delegacao-itens li
+	{
+		float: left;
+		width: 100%;
+		border-bottom: 1px dashed #fff;
+		margin-bottom: 1em;
+	}
+
+	.delegacao-itens li:last-child
+	{
+		border-bottom: 0 none;
+	}
+
+	.delegacao-itens .delegacao,
+	.delegacao-itens .responsavel
+	{
+		float: left;
+		padding: 5px;
+	}
+
+	.delegacao-itens .delegacao p,
+	.delegacao-itens .responsavel p
+	{
+		color: #fff;
+		font-size: 1.6em;
+		line-height: 1.4em;
+	}
+
+	.delegacao-itens .delegacao span,
+	.delegacao-itens .responsavel span
+	{
+		display: block;
+	}
+
+	.delegacao-itens .delegacao-nome
+	{
+		color: #f9d324;
+	}
+
+	.delegacao-itens .delegacao a,
+	.delegacao-itens .responsavel a
+	{
+		color: #f9d324;
+	}
+
+	.delegacao-itens .delegacao
+	{
+		width: 40%;
+	}
+
+	.delegacao-itens .responsavel
+	{
+		width: 60%;
+	}	
+
+/* Mobile Only */
+
+	.mobileonly
+	{
+		display: none;
+	}
+
+	.mobileonly select
+	{
+	    padding: .8em;
+	    border-radius: 6px;
+	    -moz-border-radius: 6px;
+	    -webkit-border-radius: 6px;
+	    border: 0 none;
+	    margin-bottom: 1em;
+	    border-radius: 0;
+	    width: 70%;
+	    margin: 2em auto;
+	    display: block;
+	    font-size: 2em;
+	    line-height: 1em;
+   	  	/*font-family: 'unisanslightregular', Arial, Helvetica, sans-serif;*/
+	}
+
+/* Delegacao Form */
+
+	#delegacaoForm
+	{
+
+	}
+
+	#delegacaoForm .input
+	{
+		background: #fff;
+		color: #686866;
+	}
+
+	#delegacaoForm .input:hover,
+	#delegacaoForm .input:focus
+	{
+		background: #eee;
+	}
+
+	#delegacaoForm ::-webkit-input-placeholder
+	{ /* Chrome/Opera/Safari */
+	  color: #686866;
+	  text-transform: uppercase;
+	  font-weight: normal;
+	}
+	#delegacaoForm ::-moz-placeholder
+	{ /* Firefox 19+ */
+	  color: #686866;
+	  text-transform: uppercase;
+	  font-weight: normal;
+	}
+	#delegacaoForm :-ms-input-placeholder
+	{ /* IE 10+ */
+	  color: #686866;
+	  text-transform: uppercase;
+	  font-weight: normal;
+	}
+	#delegacaoForm :-moz-placeholder
+	{ /* Firefox 18- */
+	  color: #686866;
+	  text-transform: uppercase;
+	  font-weight: normal;
+	}	
+
+	#delegacaoForm .submit
+	{
+		background: #fff;
+		color: #4b8f82;
+		padding: 1em 5em;
+		margin: .2em 0 0;			
+	}	
+
+	#delegacaoForm .submit:hover,
+	#delegacaoForm .submit:focus
+	{
+		background: #5cad9e;
+		color: #fff;
+	}	
+
+
+@media only screen and (max-width: 767px) {
+
+	.no-mobile
+	{
+		display: block;
+	}
+
+	.mobileonly
+	{
+		display: block;
+	}
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}

@@ -1,0 +1,110 @@
+/* Geral */
+
+#loja
+{
+	padding: 7em 0 10em;
+}
+
+#loja .poligono
+{
+	/*background: #9fc2bb*/
+	background: #78b8ab url("../imgs/bg-lojinha-pol.jpg") repeat-y center top;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -20;
+
+	-ms-transform: skewY(4deg); /* IE 9 */
+	-webkit-transform: skewY(4deg); /* Safari */
+	transform: skewY(4deg); /* Standard syntax */	
+}
+
+#loja .linhas
+{
+	background: url("../imgs/linhas-rg-wh.png") no-repeat 100% 10%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	z-index: -10;
+}
+
+#loja header h2
+{
+	color: #fff;
+}
+
+/* Produtos */
+
+	.produtos
+	{
+		text-align: center;
+	}
+
+	.produtos figure
+	{
+		display: inline-block;
+		position: relative;
+	}
+
+	.produtos figcaption
+	{
+		position: absolute;
+		bottom: 2%;
+		left: 0;
+		border-bottom: #fff 1px solid;
+		width: 100%;
+	}
+
+	.produtos figcaption.text-right
+	{
+		right: 52%;
+		width: 32%;
+		left: initial;
+		bottom: 5%;
+	}
+
+	.produtos h6
+	{
+		color: #fff;
+		font-family: 'unisanssemiboldbold', Arial, Helvetica, sans-serif;
+		font-size: 2.2em;
+		line-height: 1.2em;
+		text-transform: uppercase;
+		margin: 0;
+	}
+
+/* Lojinha */
+
+	#lojinha
+	{
+	    margin: 4em 0 0;
+	    overflow: hidden;
+	    width: 100%;
+	    height: 695px;
+	    background: #fff;
+	    padding: 0 2em;
+	}
+
+	#lojinha iframe
+	{
+		margin-top: -90px;
+	}
+
+	#lojinha iframe *,
+	body-iframe *
+	{
+		font-family: 'unisanssemiboldbold', Arial, Helvetica, sans-serif !important;
+	}
+
+	#lojinha #page-header
+	{
+		display: none!important;
+	}

@@ -1,0 +1,4 @@
+1- Gerar badge google play
+Obs.: apenas coloquei o botão, o url deve ser inserido, seguindo esta url:
+
+https://play.google.com/intl/en_us/badges/

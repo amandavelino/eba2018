@@ -1,0 +1,134 @@
+/* Iframe Lojinha */
+
+@media only screen and (max-width: 991px)
+{
+	#lojinha
+	{
+		height: 770px;
+	}
+
+}
+
+@media only screen and (max-width: 740px)
+{
+	#lojinha
+	{
+		height: 825px;
+	}
+}
+
+@media only screen and (max-width: 660px)
+{
+	#lojinha
+	{
+		height: 890px;
+	}
+}
+
+@media only screen and (max-width: 635px)
+{
+	#lojinha
+	{
+		height: 910px;
+	}
+}
+
+@media only screen and (max-width: 620px)
+{
+	#lojinha
+	{
+		height: 940px;
+	}
+}
+
+@media only screen and (max-width: 600px)
+{
+
+	#lojinha
+	{
+		height: 975px;
+	}	
+
+}	
+
+@media only screen and (max-width: 575px)
+{
+	#lojinha
+	{
+		height: 1000px;
+	}	
+}
+
+@media only screen and (max-width: 570px)
+{
+	#lojinha
+	{
+		height: 722px;
+	}	
+}
+
+@media only screen and (max-width: 550px)
+{
+	#lojinha
+	{
+		height: 760px;
+	}	
+}	
+
+@media only screen and (max-width: 440px)
+{
+	#lojinha
+	{
+		height: 770px;
+	}
+}
+
+@media only screen and (max-width: 400px)
+{
+	#lojinha
+	{
+		height: 800px;
+	}
+}	
+
+@media only screen and (max-width: 385px)
+{
+
+	#lojinha
+	{
+		height: 820px;
+	}
+}	
+
+@media only screen and (max-width: 365px)
+{
+	#lojinha
+	{
+		height: 850px;
+	}
+}
+
+@media only screen and (max-width: 365px)
+{
+	#lojinha
+	{
+		height: 900px;
+	}
+}
+
+@media only screen and (max-width: 335px)
+{
+
+	#lojinha
+	{
+		height: 935px;
+	}
+}
+
+@media only screen and (max-width: 300px)
+{
+	#lojinha
+	{
+		height: 985px;
+	}
+}
